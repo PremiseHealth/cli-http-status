@@ -1,5 +1,3 @@
-# cli-http-status
-
 CLI tool that shows HTTP status info
 
 `http [optional]status-code`
