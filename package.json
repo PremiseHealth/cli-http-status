@@ -4,7 +4,7 @@
   "description": "CLI tool that shows HTTP status info",
   "main": "bin/index.js",
   "scripts": {
-    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+    "patch-release": "npm version patch && npm publish --access=public && git push --follow-tags"
   },
   "bin": {
     "http": "bin/index.js"
