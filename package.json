@@ -1,0 +1,32 @@
+{
+  "name": "@premise/premise-http-status",
+  "version": "1.0.0",
+  "description": "CLI tool that shows HTTP status info",
+  "main": "bin/index.js",
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "bin": {
+    "http": "bin/index.js"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "code"
+  ],
+  "author": "Premise",
+  "license": "MIT",
+  "dependencies": {
+    "bossy": "^3.0.1",
+    "http-status": "^0.2.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PremiseHealth/premise-http-status.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PremiseHealth/premise-http-status/issues"
+  },
+  "homepage": "https://github.com/PremiseHealth/premise-http-status#readme"
+}
