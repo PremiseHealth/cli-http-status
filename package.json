@@ -1,5 +1,5 @@
 {
-  "name": "@premise/premise-http-status",
+  "name": "@premise/cli-http-status",
   "version": "1.0.0",
   "description": "CLI tool that shows HTTP status info",
   "main": "bin/index.js",
@@ -23,10 +23,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PremiseHealth/premise-http-status.git"
+    "url": "git+https://github.com/PremiseHealth/cli-http-status.git"
   },
   "bugs": {
-    "url": "https://github.com/PremiseHealth/premise-http-status/issues"
+    "url": "https://github.com/PremiseHealth/cli-http-status/issues"
   },
-  "homepage": "https://github.com/PremiseHealth/premise-http-status#readme"
+  "homepage": "https://github.com/PremiseHealth/cli-http-status#readme"
 }
